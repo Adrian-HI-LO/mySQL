@@ -18,11 +18,11 @@ app.listen(PORT, () => {
 // Conexion con mySQL
 
 const conection = mysql.createConnection({
-     host: "localhost",
-     user: "root",
-     password: "Hola1234",
+     host: "brozy9jovz6yupghhpty-mysql.services.clever-cloud.com",
+     user: "ui36ek2jc44sglcd",
+     password: "1BFnvjwcwK4JkW01rmi0",
      port: 3306,
-     database: "usuarios"
+     database: "brozy9jovz6yupghhpty"
 })
 
 conection.connect((err) => {
